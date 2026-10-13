@@ -19,5 +19,7 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 - Feature_Animation
 - Feature_Puzzle
 
+Rama de integracion: Dev
+
 ## Objetivo
 Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y abrir la puerta de salida.
