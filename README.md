@@ -33,4 +33,8 @@ Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y
 1. Abrir el proyecto con Unity 6000.5.6f1 y la escena Assets/Scenes/MainScene.
 2. Presionar Play.
 3. Moverse con WASD o las flechas.
-4. Resolver el codigo del puzzle (PuzzleManager) para avanzar.
+4. Presionar E para interactuar con objetos.
+5. Resolver el codigo del puzzle (PuzzleManager) para avanzar.
+
+## Version
+- v1.0 (entrega final del laboratorio)
