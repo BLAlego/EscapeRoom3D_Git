@@ -23,3 +23,7 @@ Rama de integracion: Dev
 
 ## Objetivo
 Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y abrir la puerta de salida.
+
+## Estado del proyecto
+- Escena principal: MainScene
+- Avance: movimiento del jugador e interaccion base en sus ramas Feature
