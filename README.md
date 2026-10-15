@@ -3,10 +3,10 @@
 Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity.
 
 ## Integrantes
-- BLAlego (Rol A)
-- Integrante 2 (Rol B)
-- Integrante 3 (Rol C)
-- Integrante 4 (Rol D)
+- Benjamin Espinoza (Integrante 1)
+- Rafaela Marta (Integrante 2)
+- Alexander Arandia - @BLAlego (Integrante 3)
+- Adrian Baldivieso (Integrante 4)
 
 ## Version de Unity
 - 6000.5.6f1 (Unity 6.5)
@@ -19,5 +19,22 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 - Feature_Animation
 - Feature_Puzzle
 
+Rama de integracion: Dev
+
 ## Objetivo
 Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y abrir la puerta de salida.
+
+## Estado del proyecto
+- Escena principal: MainScene
+- Integrado en Dev: movimiento del jugador, interaccion, Player prefab, cofre, puerta, PuzzleManager y GameManager
+- Correccion de validacion del puzzle aplicada con cherry-pick (Caso 19)
+
+## Como jugar
+1. Abrir el proyecto con Unity 6000.5.6f1 y la escena Assets/Scenes/MainScene.
+2. Presionar Play.
+3. Moverse con WASD o las flechas.
+4. Presionar E para interactuar con objetos.
+5. Resolver el codigo del puzzle (PuzzleManager) para avanzar.
+
+## Version
+- v1.0 (entrega final del laboratorio)
