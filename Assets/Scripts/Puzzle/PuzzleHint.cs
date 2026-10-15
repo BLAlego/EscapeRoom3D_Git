@@ -10,4 +10,10 @@ public class PuzzleHint : MonoBehaviour
     {
         Debug.Log("Pista: " + hint);
     }
+
+    // WIP: pista extra al fallar varias veces (experimental, no integrar todavia).
+    public string GetExtraHint(int failedAttempts)
+    {
+        return failedAttempts >= 2 ? "Pista extra: el codigo tiene 4 digitos." : string.Empty;
+    }
 }
