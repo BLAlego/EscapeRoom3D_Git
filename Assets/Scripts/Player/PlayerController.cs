@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
-    public float sprintMultiplier = 1.5f; // Velocidad extra al correr (Caso 12)
+    public float sprintMultiplier = 2f; // A (Alexander): correr al doble de velocidad
 
       private void Update()
     {
