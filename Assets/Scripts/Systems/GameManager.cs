@@ -22,7 +22,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Initialize(); // A (Rafaela): preparar la partida al empezar
+        Debug.Log("Cargando partida..."); // B (Adrian)
+        Initialize(); // A (Rafaela) + B: una sola llamada, Initialize() no puede repetirse
     }
 
     public void Initialize()
