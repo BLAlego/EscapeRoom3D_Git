@@ -26,6 +26,11 @@ Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y
 
 ## Estado del proyecto
 - Escena principal: MainScene
-- Avance: movimiento del jugador e interaccion base en sus ramas Feature
+- Integrado en Dev: movimiento del jugador, interaccion, Player prefab, cofre, puerta, PuzzleManager y GameManager
+- Correccion de validacion del puzzle aplicada con cherry-pick (Caso 19)
 
-- Puzzle: PuzzleManager integrado en Dev (Caso 10)
+## Como jugar
+1. Abrir el proyecto con Unity 6000.5.6f1 y la escena Assets/Scenes/MainScene.
+2. Presionar Play.
+3. Moverse con WASD o las flechas.
+4. Resolver el codigo del puzzle (PuzzleManager) para avanzar.
