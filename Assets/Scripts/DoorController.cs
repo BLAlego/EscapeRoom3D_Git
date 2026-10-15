@@ -8,7 +8,7 @@ public class DoorController : MonoBehaviour
 
     public void Open()
     {
-        if (!isOpen)
+        if (isOpen)
         {
             return;
         }
