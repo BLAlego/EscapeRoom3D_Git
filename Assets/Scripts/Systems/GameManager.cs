@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Initialize(); // A (Rafaela): preparar la partida al empezar
     }
 
     public void Initialize()
