@@ -22,4 +22,10 @@ public class DoorController : MonoBehaviour
 
         Debug.Log("Puerta abierta.");
     }
+
+    [ContextMenu("Probar puerta")]
+    private void TestOpen()
+    {
+        Open();
+    }
 }
