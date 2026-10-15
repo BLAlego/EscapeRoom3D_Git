@@ -19,6 +19,14 @@ public class PuzzleManager : MonoBehaviour
 
     public bool ValidateCode(string code)
     {
+        // fix: normaliza el codigo (quita espacios) y no gasta intentos con entradas vacias.
+        code = code == null ? string.Empty : code.Trim();
+        if (code.Length == 0)
+        {
+            Debug.Log("Ingresa un codigo.");
+            return false;
+        }
+
         if (IsSolved)
         {
             return true;
