@@ -1,0 +1,3 @@
+[06:56] Registro generado por la prueba del laboratorio
+[06:56] Player spawn OK
+[06:56] Puzzle 1234 OK
