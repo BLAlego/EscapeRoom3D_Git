@@ -27,3 +27,5 @@ Explorar una habitacion, resolver un codigo, abrir un cofre, obtener una llave y
 ## Estado del proyecto
 - Escena principal: MainScene
 - Avance: movimiento del jugador e interaccion base en sus ramas Feature
+
+- Puzzle: PuzzleManager integrado en Dev (Caso 10)

@@ -27,3 +27,6 @@ crashlytics-build.properties
 *.apk
 *.aab
 *.unitypackage
+# Archivos generados por pruebas del laboratorio (Caso 13)
+/[Aa]ssets/TempLaboratorio/
+/[Aa]ssets/TempLaboratorio.meta
